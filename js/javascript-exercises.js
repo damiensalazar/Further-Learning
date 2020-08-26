@@ -129,3 +129,18 @@ function length(str) {
 function convert(minutes) {
     return minutes * 60
 }
+
+//are the numbers equal
+function isSameNum(num1, num2) {
+    if(num1 === num2){
+        return true
+    }else{
+        return false
+    }
+}
+
+//maximum edge of a triangle
+function nextEdge(side1, side2) {
+    return (side1 + side2) - 1
+}
+
