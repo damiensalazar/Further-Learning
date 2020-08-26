@@ -106,4 +106,18 @@ function addition(num) {
     return num++ + 1
 }
 
-//
+//sum of cubes
+function sumOfCubes(nums) {
+    var sumn = 0;
+    for (var i = 0; i < nums.length; i++) {
+        sumn += Math.pow(nums[i], 3);
+    }
+    return sumn
+}
+
+//convert hours and minutes into seconds
+function convert(hours, minutes) {
+    return (hours*60*60) + (minutes*60)
+}
+
+//recursion: lenght of a string
