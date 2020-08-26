@@ -125,3 +125,7 @@ function length(str) {
     return str.length
 }
 
+//convert minutes into second
+function convert(minutes) {
+    return minutes * 60
+}
