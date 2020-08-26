@@ -121,3 +121,7 @@ function convert(hours, minutes) {
 }
 
 //recursion: lenght of a string
+function length(str) {
+    return str.length
+}
+
