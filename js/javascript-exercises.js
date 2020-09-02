@@ -257,3 +257,39 @@ funciton fizzbuzz(num) {
     }
 }
 fizzbuzz(30);
+
+//reverse array
+function reverse(arr) {
+    return arr.reverse()
+}
+
+//quesions from recent assessment
+function remove9s(arr) {
+    while(arr.indexOf(9) > -1 ){
+        arr.splice(arr.indexOf(9), 1)
+    }
+    return arr
+}
+
+
+
+function average(num){
+    var sum = 0;
+    for (var i = 0; i < num.length; i++) {
+        sum += num[i]
+    }
+    return sum / num.length;
+}
+
+function countOdds(num){
+    var odds = 0;
+    for (var i = 0; i < num.length; i++) {
+        if(num[i] % 2 === 1){
+            odds++;
+        }
+    }
+    return odds
+
+}
+///
+
