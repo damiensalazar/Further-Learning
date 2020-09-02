@@ -161,3 +161,7 @@ function footballPoints(wins, draws, losses) {
     return (wins*3) + (draws*1)
 }
 
+//return a string
+function length(str) {
+    return str.length
+}
