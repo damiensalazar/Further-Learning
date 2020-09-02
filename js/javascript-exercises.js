@@ -185,4 +185,22 @@ function stringInt(str) {
     return parseInt(str)
 }
 
+//fix buggy code
+function has_bugs(buggy_code) {
+    if (buggy_code) {
+        return 'sad days'
+    } else{
+        return 'it\'s a good day'
+    }
+}
+
+//multiple of 100
+function divisible(num) {
+    if(num % 100){
+        return false
+    }else{
+        return true
+    }
+}
+
 //
