@@ -215,3 +215,14 @@ function fizzBuzz (let i = 1, i <= num, i++) {
         console.log(i)
     }
 }
+
+//is the string empty
+function isEmpty(s) {
+    if (s === ""){
+        return true
+    }else{
+        return false
+    }
+}
+
+//
