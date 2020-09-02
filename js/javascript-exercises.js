@@ -225,4 +225,22 @@ function isEmpty(s) {
     }
 }
 
+//check if integer is divisible by 5
+function divisibleByFive(n) {
+    if (n % 5){
+        return false
+    }else{
+        return true
+    }
+}
+
+//divides evenly
+function dividesEvenly(a, b) {
+    if (a % b){
+        return false
+    }else{
+        return true
+    }
+}
+
 //
