@@ -165,3 +165,9 @@ function footballPoints(wins, draws, losses) {
 function length(str) {
     return str.length
 }
+
+//area of a triangle
+function triArea(base, height) {
+    return (base * height) / 2
+}
+
