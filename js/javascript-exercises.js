@@ -243,4 +243,17 @@ function dividesEvenly(a, b) {
     }
 }
 
-//
+//fizzbuzz 2
+// var fizzbuzz = function (num)
+funciton fizzbuzz(num) {
+    for(var i = 1; i <= num; i++){
+        console.log("fizzbuzzz")
+    }else if (i % 3 === 0) {
+        console.log("fizz")
+    }else if (i % 5 === 0) {
+        console.log("buzz")
+    }else{
+        console.log(i)
+    }
+}
+fizzbuzz(30);
