@@ -171,3 +171,18 @@ function triArea(base, height) {
     return (base * height) / 2
 }
 
+//are the numbers equal
+function isSameNum(num1, num2) {
+    if (num1 === num2){
+        return true
+    }else{
+        return false
+    }
+}
+
+//return string as an integer
+function stringInt(str) {
+    return parseInt(str)
+}
+
+//
