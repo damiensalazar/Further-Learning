@@ -150,3 +150,14 @@ function remainder(x, y) {
 }
 
 
+//return a string as an integer
+function stringInt(str) {
+    return parseInt(str)
+}
+
+//calculate the number of points
+function footballPoints(wins, draws, losses) {
+
+    return (wins*3) + (draws*1)
+}
+
