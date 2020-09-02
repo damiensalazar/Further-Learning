@@ -203,4 +203,15 @@ function divisible(num) {
     }
 }
 
-//
+//fizzbuzz
+function fizzBuzz (let i = 1, i <= num, i++) {
+    if (i % 15 === 0){
+        console.log("fizzbuzz")
+    }if else (i % 3 === 0){
+        consoel.log("fizz")
+    }if else (i % 5 === 0){
+        console.log("buzz")
+    }else{
+        console.log(i)
+    }
+}
