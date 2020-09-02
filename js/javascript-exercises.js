@@ -144,3 +144,9 @@ function nextEdge(side1, side2) {
     return (side1 + side2) - 1
 }
 
+//return the remainder from two numbers
+function remainder(x, y) {
+    return x % y
+}
+
+
