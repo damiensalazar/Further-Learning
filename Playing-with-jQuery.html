@@ -46,6 +46,26 @@
         $('#heading2').css('text-size', '30px')
         $('h1, h2').css('background-color', 'lightblue')
         $('#paragraph1, #paragraph2').css('background-color', 'lightgreen')
+        $('ol, ul').click(function(){
+            $('ol, ul').css('font-size', '25px')
+        });
+        $('#O-list-heading, #ul-list-heading').dblclick(function(){
+            $('#O-list-heading, #ul-list-heading').css('font-size', '35px')
+        });
+        $('#O-list-heading, #ul-list-heading').css('color', 'red')
+        $('ol, ul').css('color', 'orange');
+        $( "li" ).hover(
+            function() {
+                $( this ).append( $( "<span> ***</span>" ) );
+            }, function() {
+                $( this ).find( "span" ).last().remove();
+            }
+        );
+
+        $( "li.fade" ).hover(function() {
+            $( this ).fadeOut( 100 );
+            $( this ).fadeIn( 500 );
+        });
 
 
         // INSERT JAVASCRIPT CODE SAMPLE HERE
