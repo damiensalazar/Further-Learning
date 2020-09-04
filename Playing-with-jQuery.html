@@ -1,10 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Curriculum Code Sample</title>
 </head>
 <body>
-$END$
+<div class="container1">
+    <h1 id="heading1">Heading Number One</h1>
+    <p id="paragraph1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consectetur consequuntur, cum dignissimos dolorum
+        facilis minima non nulla, obcaecati odit qui quidem vero voluptate? Accusamus impedit neque nesciunt quaerat velit!
+    </p>
+    <p id="O-list-heading">Ordered List Heading</p>
+    <ol id="O-list">
+        <li>List Item One</li>
+        <li>List Item 2</li>
+        <li>List Item Three</li>
+        <li>List Item 4</li>
+    </ol>
+</div>
+<br><br>
+<div class="container2">
+    <h2 id="heading2">Heading Number Two</h2>
+    <p id="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam atque est in inventore, labore magni molestiae
+        quae quas quo reprehenderit tempore, veniam. Aperiam ex quos tenetur ut. Dignissimos, ea, ipsam!
+    </p>
+    <p id="ul-list-heading">List Heading</p>
+    <ul id="ul-list">
+        <li>Item Number One</li>
+        <li>Item Number Two</li>
+        <li>Item Number Three</li>
+        <li>Item Number Four</li>
+    </ul>
+</div>
+
+
+<!-- INSERT HTML CODE SAMPLE HERE -->
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+
+<script>
+    "use strict";
+
+    $(document).ready(function() {
+    $('.container1').css('border', '5px solid purple')
+        $('.container2').css('border', '5px dashed pink')
+        $('#heading1').css('text-size', '20px')
+        $('#heading2').css('text-size', '30px')
+        $('h1, h2').css('background-color', 'lightblue')
+        $('#paragraph1, #paragraph2').css('background-color', 'lightgreen')
+
+
+        // INSERT JAVASCRIPT CODE SAMPLE HERE
+
+    });
+</script>
 </body>
 </html>
